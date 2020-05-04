@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "LEGO-Handbook",
+    "id": "7f5799b3-22ad-49d2-b82a-686ef93f234b",
+    "version": "1.1.2.8",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/LEGO.Handbook.sppkg"
+  }
+}

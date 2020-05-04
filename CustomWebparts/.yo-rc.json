@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": false,
+    "environment": "spo",
+    "version": "1.10.0",
+    "libraryName": "ehs-handbook",
+    "libraryId": "7f5799b3-22ad-49d2-b82a-686ef93f234b",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,36 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.ehsHandbookNavigation {
+  @include ms-screen-lg-down {
+    display: none;
+  }
+
+  .container {
+    margin: 0px auto;
+    @include ms-Grid;
+  }
+
+  .row {
+    @include ms-Grid-row;
+  }
+
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg12;
+  }
+
+  .title {
+    @include ms-font-xl;
+    @include ms-fontColor-white;
+  }
+
+  .subTitle {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .description {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+}

@@ -1,0 +1,37 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.ehsHandbookAddNewPage {
+  .container {
+    margin: 0px auto;
+  }
+
+  .row {
+    @include ms-Grid-row;
+    @include ms-fontColor-white;
+  }
+
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg12;
+    padding: 20px;
+  }
+
+  .calculatorAdditionIcon {
+    color: $ms-color-themePrimary;
+  }
+  
+  .title {
+    @include ms-font-xl;
+    @include ms-fontColor-white;
+  }
+
+  .subTitle {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .description {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+}
