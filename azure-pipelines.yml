@@ -24,17 +24,20 @@ steps:
       displayName: 'npm install'
       inputs:
         command: 'install'
+        workingDir: 'CustomWebparts'
         verbose: false   
 
     - task: Gulp@1
       displayName: 'Gulp Build'
       inputs:
-          gulpFile: 'gulpfile.js'
+          gulpFile: 'CustomWebparts/gulpfile.js'
+          workingDirectory: 'CustomWebparts'
           targets: build 
           
     - task: Gulp@1
       inputs:
-        gulpFile: 'gulpfile.js'
+        gulpFile: 'CustomWebparts/gulpfile.js'
+        workingDirectory: 'CustomWebparts'
         targets: 'bundle'
         gulpjs: 'node_modules/gulp/bin/gulp.js'
         enableCodeCoverage: false
@@ -43,7 +46,8 @@ steps:
     - task: Gulp@0
       displayName: 'gulp package-solution'
       inputs:
-        gulpFile: 'gulpfile.js'
+        gulpFile: 'CustomWebparts/gulpfile.js'
+        workingDirectory: 'CustomWebparts'
         targets: 'package-solution'
         arguments: '--ship'
     
