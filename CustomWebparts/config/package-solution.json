@@ -1,12 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "LEGO-Handbook",
-    "id": "7f5799b3-22ad-49d2-b82a-686ef93f234b",
-    "version": "1.1.2.8",
-    "includeClientSideAssets": true
+    "name": "onboarding-client-side-solution",
+    "id": "989ff14e-8ae4-435a-84a7-8c58603e0840",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
   },
   "paths": {
-    "zippedPackage": "solution/LEGO.Handbook.sppkg"
+    "zippedPackage": "solution/onboarding.sppkg"
   }
 }

@@ -2,55 +2,37 @@
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
   "version": "2.0",
   "bundles": {
-    "ehs-handbook-listing-web-part": {
+    "training-web-part": {
       "components": [
         {
-          "entrypoint": "./lib/webparts/ehsHandbookListing/EhsHandbookListingWebPart.js",
-          "manifest": "./src/webparts/ehsHandbookListing/EhsHandbookListingWebPart.manifest.json"
+          "entrypoint": "./lib/webparts/training/TrainingWebPart.js",
+          "manifest": "./src/webparts/training/TrainingWebPart.manifest.json"
         }
       ]
     },
-    "ehs-handbook-add-new-page-web-part": {
+    "assessment-web-part": {
       "components": [
         {
-          "entrypoint": "./lib/webparts/ehsHandbookAddNewPage/EhsHandbookAddNewPageWebPart.js",
-          "manifest": "./src/webparts/ehsHandbookAddNewPage/EhsHandbookAddNewPageWebPart.manifest.json"
+          "entrypoint": "./lib/webparts/assessment/AssessmentWebPart.js",
+          "manifest": "./src/webparts/assessment/AssessmentWebPart.manifest.json"
         }
       ]
     },
-    "ehs-handbook-navigation-web-part": {
+    "assessment-finder-web-part": {
       "components": [
         {
-          "entrypoint": "./lib/webparts/ehsHandbookNavigation/EhsHandbookNavigationWebPart.js",
-          "manifest": "./src/webparts/ehsHandbookNavigation/EhsHandbookNavigationWebPart.manifest.json"
-        }
-      ]
-    },
-    "ehs-handbook-page-details-web-part": {
-      "components": [
-        {
-          "entrypoint": "./lib/webparts/ehsHandbookPageDetails/EhsHandbookPageDetailsWebPart.js",
-          "manifest": "./src/webparts/ehsHandbookPageDetails/EhsHandbookPageDetailsWebPart.manifest.json"
-        }
-      ]
-    },
-    "test-webpart-web-part": {
-      "components": [
-        {
-          "entrypoint": "./lib/webparts/testWebpart/TestWebpartWebPart.js",
-          "manifest": "./src/webparts/testWebpart/TestWebpartWebPart.manifest.json"
+          "entrypoint": "./lib/webparts/assessmentFinder/AssessmentFinderWebPart.js",
+          "manifest": "./src/webparts/assessmentFinder/AssessmentFinderWebPart.manifest.json"
         }
       ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "EhsHandbookListingWebPartStrings": "lib/webparts/ehsHandbookListing/loc/{locale}.js",
-    "EhsHandbookAddNewPageWebPartStrings": "lib/webparts/ehsHandbookAddNewPage/loc/{locale}.js",
-    "EhsHandbookNavigationWebPartStrings": "lib/webparts/ehsHandbookNavigation/loc/{locale}.js",
-    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
+    "TrainingWebPartStrings": "lib/webparts/training/loc/{locale}.js",
     "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
-    "EhsHandbookPageDetailsWebPartStrings": "lib/webparts/ehsHandbookPageDetails/loc/{locale}.js",
-    "TestWebpartWebPartStrings": "lib/webparts/testWebpart/loc/{locale}.js"
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
+    "AssessmentWebPartStrings": "lib/webparts/assessment/loc/{locale}.js",
+    "AssessmentFinderWebPartStrings": "lib/webparts/assessmentFinder/loc/{locale}.js"
   }
 }
