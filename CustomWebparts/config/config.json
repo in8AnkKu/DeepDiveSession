@@ -33,6 +33,14 @@
           "manifest": "./src/webparts/ehsHandbookPageDetails/EhsHandbookPageDetailsWebPart.manifest.json"
         }
       ]
+    },
+    "test-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/testWebpart/TestWebpartWebPart.js",
+          "manifest": "./src/webparts/testWebpart/TestWebpartWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -42,6 +50,7 @@
     "EhsHandbookNavigationWebPartStrings": "lib/webparts/ehsHandbookNavigation/loc/{locale}.js",
     "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
     "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
-    "EhsHandbookPageDetailsWebPartStrings": "lib/webparts/ehsHandbookPageDetails/loc/{locale}.js"
+    "EhsHandbookPageDetailsWebPartStrings": "lib/webparts/ehsHandbookPageDetails/loc/{locale}.js",
+    "TestWebpartWebPartStrings": "lib/webparts/testWebpart/loc/{locale}.js"
   }
 }
