@@ -65,8 +65,6 @@ export class SPDataOperations {
           trainingIDs[field.Module].push(field.Id);
         }
       });
-      //subModuleData[field.Module] = field.SubModule;      
-      //trainingData[field.SubModule] = field;
     } catch (error) {
       console.log(error.message);
     }
