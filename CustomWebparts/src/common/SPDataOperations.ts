@@ -30,7 +30,7 @@ export class SPDataOperations {
     return selectedTraining;
   }
 
-    /**
+  /**
    * Gets the available sub module
    * @param lists The list for which the fields of type Managed Metadata need to be retrieved
    * @param module
